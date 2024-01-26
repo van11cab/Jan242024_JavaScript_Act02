@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class ="container">
+            <div id="Digital_Clock">
+                <p id="DigClock"> 00:00:00 </p>
+                <p id ="date"></p>
+                <script src="script.js"></script>
+            </div>
+            <br><br>
+
+            <div id="Analog_Clock">
+                <div id="hour_hand"></div>
+                <div id="minute_hand"></div>
+                <div id="second_hand"></div>
+            </div>
+
+            <div id="buttons">
+                <list>
+                    <ui><button id="brazil" onclick="brazil_time()"></button></ui>
+                    <ui><button id="ph" onclick="ph_time()"></button></ui>
+                    <ui> <button id="jp"onclick="jp_time()"></button></ui>
+                    <ui><button id="us"onclick="us_time()"></button></ui>
+                </list>
+            </div>
+        </div>
+    </body>
+</html>
