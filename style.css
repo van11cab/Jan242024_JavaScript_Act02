@@ -41,6 +41,10 @@ button {
     background-image: url('Img/Flag/USA.webp');
 }
 
+#ind {
+    background-image: url('Img/Flag/india.webp');
+}
+
 button:hover{
     width: 10vw;
     background-color: white;
@@ -58,8 +62,8 @@ button:hover{
 }
 
 #Analog_Clock{
-    margin-left:15vw;
-    margin-top:-17vw;
+    margin-left:6vw;
+    margin-top:-15vw;
     position:relative;
     height:30vw;
     width: 30vw;
@@ -68,16 +72,16 @@ button:hover{
 }
 
 #Digital_Clock{
-    margin-top:15vw;
+    margin-top:8vw;
     margin-left:30vw;
     text-align: center;
     position:relative;
-    font-size: 4vw
+    font-size: 8vw
 }
 
 #date {
-    font-size: 2vw;
-    margin-top:-11vw;
+    font-size: 3vw;
+    margin-top:-20vw;
 }
 
 #hour_hand, #minute_hand, #second_hand{
